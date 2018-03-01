@@ -1,0 +1,14 @@
+{	
+  "name": "Example",
+  "description": "Example to create a context menu",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "contextMenus" // Permission to create context menu
+  ],
+  "background": {
+    "scripts": [
+      "back.js"  // The file name which is created
+    ]
+  }
+}
